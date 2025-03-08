@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
+    <title>ShopMart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <!-- pop up start here  -->
+  <div class="popup-box" id="hid" style="display: block; visibility: hidden">
+    <div class="transparent-layer"></div>
+    <div class="popup-inner" >
+      <div class="popup-msg">
+       
+        <h4>50% off</h4> On new arrival Product<b><br>
+        <a href="#"> Visit Now</a></b>
+        <button onclick="dltFun();"  ><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    </div>
+  </div>
+  <div class="popup-box2" id="hid2" style="display: block; visibility: hidden">
+    <div class="transparent-layer"></div>
+    <div class="popup-inner2 quadrat">
+      <div class="popup-msg2">
+       Our <b>Best Selling</b> products are available Now
+        <button onclick="dlt();" ><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    </div>
+  </div>
+  <div class="background"></div>
+  <div id="videoPopup1" class="popup">
+      <div class="popup-content">
+        <button onclick="cl();"  ><i class="fa-solid fa-xmark"></i></button>
+          <iframe width="240" height="220" 
+          src="https://www.youtube.com/embed/BHACKCNDMW8?si=sEmgsXp0WWGh9TQ2" title="YouTube video player" 
+                  frameborder="0"
+              allowfullscreen></iframe>
+      </div>
+  </div>
+  <div class="background"></div>
+  <div id="imagePopup1" class="popup">
+      <div class="popup-content2">
+        <button onclick="dlt();" ><i class="fa-solid fa-xmark"></i></button>
+          <img src="image/download.jpg">
+      </div>
+  </div>
+  <!-- popup end here  -->
+<!-- navbar part start here  -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#"><h3>ShopMart</h3></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <!-- Home part start  -->
+ <section id="mainpart">
+ <div class="container">
+  <div class="row">
+    <div class="col-lg-5 m-auto">
+      <h1>NeuroMarketing</h1>
+      <p>Neuromarketing is a field that studies how consumers respond to marketing stimuli by measuring brain activity. It uses techniques like eye tracking, electroencephalograms (EEGs). 
+        Goal: Understand consumers' reactions to marketing, Improve marketing campaigns and strategies, Reduce product and campaign failures. 
+        Techniques:
+        Eye tracking: Uses cameras or glasses to monitor eye position and identify what attracts consumers' attention EEGs: Uses sensors on the scalp to track brain activity  
+        Benefits:
+        Provides insights into why consumers don't always act on their intentions 
+        Helps companies create more effective ads and branding 
+        Helps companies understand how to change marketing to appeal to consumers' emotions 
+        Applications Comparing advertising campaigns before releasing them to the public, Improving advertisements and branding. </p>
+    </div>
+  </div>
+ </div>
+ </section>
+
+<script src="js/script.js"></script>
+  </body>
+
+    
+</html>
